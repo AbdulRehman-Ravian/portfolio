@@ -13,7 +13,7 @@ export class SkillsComponent implements OnInit {
     technologies: [
       { name: "C#, .Net, .Net Core", percent: 90, remark: 'excellent' },
       { name: ".Net MVC, Web APIs, Entity Framework", percent: 90, remark: 'excellent' },
-      { name: "Angular, AngularJs, ReactJs,", percent: 95, remark: 'excellent' },
+      { name: "Angular, AngularJs", percent: 95, remark: 'excellent' },
       { name: "SQL Server, MS Azure, Cosmos DB", percent: 80, remark: 'good' },
       { name: "TypeScript, Javascript, JQuery, AJAX", percent: 80, remark: 'very-good' },
       { name: "Material Design, Kendo UI, Flex Layout", percent: 85, remark: 'good' },

@@ -35,9 +35,24 @@ export const projectsEn = [
         detailIsDisplayed: false,
     },
     {
+        id:"instED",
+        name: "instED",
+        technologies: 'Angular, Typescript, Javascript, HTML, CSS, Angular Material Design',
+        images: [
+            {
+                title:'Pokedex',
+                src:   "assets/images/pokedex2.png",
+            }, 
+        ],
+        url:'#portfolio',
+        detail:"<p>instED provides urgent medical care in the comfort of patient’s home.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
         id:"compAccelerator",
         name: "CompAccelerator",
-        technologies: 'Angular 2, Typescript, Javascript, HTML, CSS, Angular Material Design',
+        technologies: 'Angular, Typescript, Javascript, HTML, CSS, Angular Material Design',
         images: [
             {
                 title:'Pokedex',
@@ -46,6 +61,21 @@ export const projectsEn = [
         ],
         url:'#portfolio',
         detail:"<p>CompAccelerator is a highly configurable compensation solution designed from the HR perspective.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"portfolio",
+        name: "portfolio",
+        technologies: 'Angular 11, Typescript, Javascript, HTML, CSS, Angular Material Design',
+        images: [
+            {
+                title:'Pokedex',
+                src:   "assets/images/portfolio.PNG",
+            }, 
+        ],
+        url:'#portfolio',
+        detail:"<p>Personal porfolio developed in Angular 11 and deployed on firebase.</p>",
         codeSourceUrl:'',
         detailIsDisplayed: false,
     },

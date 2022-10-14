@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   }
   ngOnInit(): void {
     var options = {
-      strings: ['','.Net Core', 'Angular', 'React', 'Full-Stack'],
+      strings: ['','C-Sharp','.Net Core', 'Angular', 'SQL Server','Azure', 'Full-Stack'],
       typeSpeed: 120,
       backSpeed: 100,
       loop: true,
