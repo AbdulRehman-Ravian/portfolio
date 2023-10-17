@@ -9,7 +9,7 @@ import { locale as french } from '../shared/i18n/fr';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  skills: any = {
+  skills: any =  {
     technologies: [
       { name: "C#, .Net, .Net Core", percent: 90, remark: 'excellent' },
       { name: ".Net MVC, Web APIs, Entity Framework", percent: 90, remark: 'excellent' },
